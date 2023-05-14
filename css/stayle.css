@@ -1,0 +1,236 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#home {
+    background-image: url(../images/landing.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.527);
+    width: 100%;
+    height: 100vh;
+
+}
+
+.home-contant {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+
+.navbar {
+    z-index: 100;
+}
+
+.item {
+    width: 33%;
+}
+
+#Service h2 {
+    color: #ebeced;
+    font-weight: bold;
+    font-size: 7rem;
+    position: relative;
+}
+
+#Service h2::after {
+    content: "Dont be busy, be productive";
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%);
+    color: #797979;
+    font-size: large;
+}
+
+.srv-pra {
+    display: flex;
+}
+
+.half-one {
+    text-align: left;
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.srv-item {
+    margin-top: 20px;
+    width: 50%;
+    display: flex;
+}
+
+.srv-item i {
+    padding: 8px;
+    font-size: xx-large;
+
+}
+
+.srv-item .srv-text h3 {
+    color: black;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+
+.srv-item .srv-text p {
+    color: #797979;
+}
+
+.half-two {
+    width: 35%;
+    position: relative;
+}
+
+.half-two img {
+    width: 75%;
+    height: 85%;
+    padding: 5%;
+    position: absolute;
+    top: 5%;
+    right: 0;
+}
+
+#Portfolio h2 {
+    color: #ebeced;
+    font-weight: bold;
+    font-size: 7rem;
+    position: relative;
+}
+
+#Portfolio h2::after {
+    content: "If you do it right, it will last forever.";
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%);
+    color: #797979;
+    font-size: large;
+}
+
+.protoflio-pra {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pro-item {
+    padding: 20px;
+    text-align: left;
+    width: 33%;
+}
+
+.pro-item h5 {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+#About h2 {
+    color: #ebeced;
+    font-weight: bold;
+    font-size: 7rem;
+    position: relative;
+}
+
+#About h2::after {
+    content: "Less is more work.";
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%);
+    color: #797979;
+    font-size: large;
+}
+
+.ab-pra {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.half-one-ab {
+    width: 40%;
+}
+
+.half-one-ab img {
+    width: 70%;
+    padding: 30px;
+}
+
+.half-two-ab {
+    margin: 40px;
+    text-align: left;
+    width: 50%;
+    padding: 40px;
+}
+
+.tx1 {
+    font-weight: bold;
+    font-size: large;
+}
+
+.tx2 {
+
+    font-weight: normal;
+    font-size: large;
+}
+
+#Contact h2 {
+    color: #ebeced;
+    font-weight: bold;
+    font-size: 7rem;
+    position: relative;
+}
+
+#Contact h2::after {
+    content: "We are born to create";
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%);
+    color: #797979;
+    font-size: large;
+}
+
+.con-tex1 {
+    font-weight: 800;
+    font-size: 35;
+    color: #2c4755;
+    margin-top: 40px;
+
+
+}
+
+.con-tex2 {
+    padding: 20px;
+    margin-top: 40px;
+
+    font-weight: 800;
+    font-size: 35;
+    color: #10cab7;
+
+}
+
+.end {
+    font-size: x-large;
+    margin: 50px;
+    padding: 50px;
+    background-color: #2c4755;
+    color: white;
+}
+
+.end p span {
+    color: #10cab7;
+}

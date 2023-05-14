@@ -1,0 +1,141 @@
+
+/* TABLET */
+@media screen and (max-width:979px) and (min-width:768px) {
+    .item {
+        width: 49%;
+    }
+}
+
+/* phone */
+@media screen and (max-width:767px) and (min-width:500px) {
+    .item {
+        width: 100%;
+    }
+
+    .srv-pra {
+        display: flex;
+        text-align: center;
+    }
+
+    .half-one {
+        text-align: center;
+        text-align: left;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .srv-item {
+
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .half-two {
+        display: none;
+    }
+
+    .protoflio-pra {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .pro-item {
+        padding: 20px;
+        width: 100%;
+    }
+
+
+
+    .ab-pra {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-between;
+
+    }
+
+    .half-one-ab {
+        width: 100%;
+    }
+
+    .half-one-ab img {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .half-two-ab {
+        margin: 40px;
+        text-align: left;
+        width: 100%;
+        padding: 40px;
+    }
+}
+
+/* small phone*/
+@media screen and (max-width:499px) {
+    .item {
+        width: 100%;
+
+    }
+
+    .srv-pra {
+        display: flex;
+        text-align: center;
+    }
+
+    .half-one {
+        text-align: left;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .half-two {
+        display: none;
+    }
+
+    .srv-item {
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .protoflio-pra {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .pro-item {
+        padding: 20px;
+        width: 100%;
+    }
+
+
+    .ab-pra {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-between;
+
+    }
+
+    .half-one-ab {
+        width: 100%;
+    }
+
+    .half-one-ab img {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .half-two-ab {
+        margin: 40px;
+        text-align: left;
+        width: 100%;
+        padding: 40px;
+    }
+}
